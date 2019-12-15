@@ -1,0 +1,58 @@
+
+#s
+{
+        float: right;
+}
+body
+{
+        margin: 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+th
+{
+    background-color: orange;
+}
+tr:hover
+{
+    background-color:lightgreen;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+        .auto-style3
+        {
+            text-align: left;
+        }
+        #logout
+        {
+            text-align: center;
+        }
+        .next:hover{background:white;color:blue;border:2px solid blue;}
+        .next
+{
+	margin-left:10px;
+	border:1px solid black;
+	padding:10px;
+	background:#6666ff;
+	color:white;
+	width:10%;
+	border-radius:20px;
+	font-weight:bold;
+}
+table.s
+{
+    border:10;
+    cellspacing:0;
+    cellpadding:0;
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	color: white;
+	background-color: white;
+	margin-left:200px;
+        margin-top:0;
+	padding:0;	
+}
+
+#container {
+	background-color: #FFF;
+	clear:both;
+	width:968px;
+	top: 3px;
+	margin-right: 0;
+	margin-top: 0;
+	height:810px;
+}
+#container #main {
+	padding:10px;
+	float: left;
+	height: 550px;
+	width: 947px;
+}
+
+table {
+	height:auto;
+	width: 917px;
+	margin:0;
+	padding:0;
+}
+
+p.logintext {
+	float:left;	
+	position:absolute;
+	width:359px;
+	top: 503px;
+	left: 416px;
+	height: 86px;
+}
+
+#container #main #center {
+	padding:1px 10px;
+	border: 1px solid #CCC;
+	background-color: #FFFFFF;
+	width:928px;
+	height: 88px;
+}
+#container #main #center1 {
+	padding:1px 10px;
+	border: 1px solid #CCC;
+	background-color: #FFFFFF;
+	width:928px;
+	height:433px;
+	margin-left: 1px;
+}
+
+#container #main #menu{
+	padding:0;
+	background-color: #FFFFFF;
+	width:935px;
+	height: 85px;
+}

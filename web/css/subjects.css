@@ -1,0 +1,79 @@
+    #t
+{
+   float:right; 
+}
+    body{
+        background:#efefef;
+        margin:0;
+    }
+.help
+{
+	text-align:center;
+	padding:5px;
+	width:5%;
+	float:right;
+	border:2px solid black;
+}
+.help:hover
+{
+	background:black;
+	color:white;
+	font-weight:bold;
+	box-shadow:5px 5px 10px gray;
+}
+.logout
+{
+	text-align:center;
+	padding:5px;
+	width:5%;
+	float:right;
+	border:2px solid black;
+}
+.logout:hover
+{
+	background:black;
+	color:white;
+	font-weight:bold;
+	box-shadow:5px 5px 10px gray;
+}
+fieldset
+{
+	width:80%;
+	margin-left:10%;
+	border-radius:3px;
+	 overflow:auto;
+	background:white;
+}
+legend
+{
+	border:1px solid black;
+	padding:5px;
+	background:#6666ff;
+	color:white;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+}
+.prev
+{
+	border:1px solid black;
+	padding:10px;
+	background:#6666ff;
+	color:white;
+	width:10%;
+	border-radius:20px;
+	font-weight:bold;
+}
+.prev:hover{background:white;color:blue;border:2px solid blue;}
+.next:hover{background:white;color:blue;border:2px solid blue;}
+.next
+{
+	margin-left:10px;
+	border:1px solid black;
+	padding:10px;
+	background:#6666ff;
+	color:white;
+	width:10%;
+	border-radius:20px;
+	font-weight:bold;
+        text-decoration: none;
+}

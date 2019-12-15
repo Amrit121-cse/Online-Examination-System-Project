@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Timer</title>
+<script type="text/javascript">
+    var timer=600;
+    var min=0;
+    var sec=0;
+    function startTimer(){
+    	 min=parseInt(timer/60);
+    	sec=parseInt(timer%60);
+
+    	if(timer<1){
+            window.location="over.jsp";
+        }
+    		
+    	document.getElementById("time").innerHTML = "<b>Time Left: </b>"+min.toString()+":"+sec.toString();
+    	timer--;
+    	setTimeout(function(){ 
+            startTimer(); 
+        }, 1000);
+    }
+</script>
+</head>
+<body onload="startTimer()">
+<div><b>[<span id="time"></span></b>]</div>
+</html>
